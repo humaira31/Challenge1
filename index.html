@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .img {
+            height: 400px;
+            
+        }
+
+        .photo {
+
+            margin: 140px;
+        }
+
+        .text {
+
+            margin: 140px;
+            font-weight: 400px;
+
+        }
+
+        .btn {
+            background-color: black;
+            color: aliceblue;
+            padding: 20px;
+            margin-top: 20px;
+
+
+        }
+
+
+        @media screen and (max-width: 576px) {
+            .body {
+                flex-direction: column;
+                
+            }
+            .img{
+                height: 250px;
+                
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="photo">
+            <img class="img" src="Scarecrow.png" alt="">
+        </div>
+        <div class="text">
+            <h1>I have bad news for you</h1>
+            <p>The page you are looking for might be removed or is temporarily unavailable</p>
+            <button class="btn">Back to Home Page</button>
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
